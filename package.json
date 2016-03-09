@@ -1,0 +1,35 @@
+{
+  "name": "SportsKat",
+  "description": "SportsKat Server",
+  "version": "0.1.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "bell": "6.1.0",
+    "boom": "^2.6.1",
+    "hapi": "^11.x.x",
+    "hapi-auth-cookie": "6.0.0",
+    "hapi-auth-bearer-token": "4.0.0",
+    "hapi-auth-jwt": "4.0.0",
+    "jsonwebtoken": "5.x.x",
+    "hapi-swagger": "^2.2.4",
+    "inert": "3.x.x",
+    "joi": "7.x.x",
+    "mongoose": "4.1.12",
+    "vision": "4.x.x",
+    "wreck": "^7.0.0"
+  },
+  "keywords": [
+    "sports",
+    "sportskat"
+  ],
+  "author": {
+    "name": "Héctor Navarro",
+    "email": "hecnabae@gmail.com"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
